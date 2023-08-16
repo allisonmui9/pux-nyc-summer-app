@@ -1,0 +1,177 @@
+.app {
+  margin: 80px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.subtitle {
+  font-size: 11px;
+  color: #5C6C75;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+button {
+  border: 1px solid transparent;
+  background-color: #00684A;
+  color: #fff;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.icon-button {
+  border: none;
+  background-color: transparent;
+  padding: 4px;
+  border-radius: 100px;
+}
+
+.icon-button:hover {
+  cursor: pointer;
+}
+
+.position-relative {
+  position: relative;
+}
+
+
+.button-container {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.card {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px -4px rgba(0, 30, 43, 0.3);
+  border-radius: 24px;
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.card-description {
+  height: 64px;
+}
+
+.image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 24px 24px 0 0;
+}
+
+
+
+.category {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.ml-4 {
+  margin-left: 4px;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 80px;
+  padding: 24px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px -4px rgba(0, 30, 43, 0.3);
+  border-radius: 24px;
+}
+
+input {
+  margin-top: 8px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #889397; 
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;     
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+textarea {
+  margin-top: 8px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #889397;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box; 
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+select {
+  margin-top: 8px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #889397;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box; 
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  font-size: 14px;
+}
